@@ -2,10 +2,9 @@ import re
 import pytesseract
 from PIL import Image
 import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
-# reload(sys)
-# sys.setdefaultencoding('utf-8')
-# 
 # input = "IMG_3354.jpeg"
 
 delimiter = "*-*"
@@ -26,6 +25,6 @@ def process_image(input_file):
             split = entry.strip().split(" ")
 
             fh.write("{}{}{}\n".format(split[0], delimiter, " ".join(split[1:])))
-            res += "{}{}{}\n".format(split[0], delimiter, " ".join(split[1:]))
+            res += "{}{}{}<br />".format(split[0], delimiter, " ".join(split[1:]))
 
     return res
