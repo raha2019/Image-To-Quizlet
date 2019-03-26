@@ -16,6 +16,8 @@ def upload_file():
         f.save(f.filename)
 
     return process_image(f.filename)
+    #return render_template('uploader.html')
 
 if __name__ == '__main__':
-    app.run(debug = True, host='0.0.0.0')
+    #set debug to false if using in production environment
+    app.run(debug = False, host='0.0.0.0')
