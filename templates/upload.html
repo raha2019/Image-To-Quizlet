@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Image-To-Quizlet</title>
-  <link rel="stylesheet" type="text/css" href='{{url_for("static", filename="css/style.css")}}'>
-  </style>
-</head>
+	<head>
+		<title>Image-To-Quizlet</title>
+		<link rel="stylesheet" type="text/css" href='{{url_for("static", filename="css/main.css")}}' />
+	</head>
 
-<html>
-   <body>
-     <div class="header">
-       <h1>Image-To-Quizlet-Study-Set</h1>
-       <div>
-    <div class="Upload">
-      <form action = "http://localhost:5000/uploader" method = "POST"
-         enctype = "multipart/form-data">
-         <input type = "file" name = "file" />
-         <input type = "submit"/>
-      </form>
-   </body>
+	<body>
+		<div class="header">
+			<h1>Image-To-Quizlet-Study-Set</h1>
+		</div>
+		<div class="upload">
+			<form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
+				<input type = "file" name = "file" />
+				<input type = "submit"/>
+			</form>
+		</div>
+	</body>
 </html>
