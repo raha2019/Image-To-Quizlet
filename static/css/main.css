@@ -1,18 +1,14 @@
 .header {
-  text-align: center;
-  margin:0;
-  background:#999;
-  color: black;
   position: relative;
-  bottom: 375px;
-  left: 300px; 
+  text-align: center;
+}
+
+.body {
+  background-color: #cc9191;
 
 }
 
 .upload {
-	background-color: #999;
-  position: relative;
-  bottom: 375px;
-  left: 300px;
+  background-color: black;
 
 }

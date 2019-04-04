@@ -19,7 +19,7 @@ def upload_file():
         f.save(f.filename)
 
     return render_template('test.html')
-    return process_image(f.filename)
+    #return process_image(f.filename)
 
 
 if __name__ == '__main__':

@@ -5,8 +5,6 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-# input = "IMG_3354.jpeg"
-
 delimiter = "*-*"
 text_delimiter = "[(][^(]*[)]"
 

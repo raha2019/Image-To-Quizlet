@@ -1,3 +1,2 @@
-phenotype*-*An organism’s physical appearance, or visible traits.
-fenotipo*-*Apariencia fisica de un organismo, es decir, los rasgos visibles.  photosynthesis The process by which plants and some other organisms capture the energy in sunlight and use it to make food.
-fotosintesis*-*Proceso por el cual las plantas y otros organismos captan la energia de la luz solar y la  usan para producir alimento.
+diffusion*-*The process by which molecules move from an area of higher concentration to an area of lower concentration.
+_*-*
